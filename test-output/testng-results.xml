@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-17T21:30:40Z" name="hybridSuite" finished-at="2022-01-17T21:34:46Z" duration-ms="245856">
+    <groups>
+    </groups>
+    <test started-at="2022-01-17T21:30:40Z" name="Test" finished-at="2022-01-17T21:34:46Z" duration-ms="245856">
+      <class name="TestOperations.testRunner">
+        <test-method is-config="true" signature="reports()[pri:0, instance:TestOperations.testRunner@18920cc]" started-at="2022-01-17T21:30:40Z" name="reports" finished-at="2022-01-17T21:30:40Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports -->
+        <test-method signature="homePageGetTitle()[pri:1, instance:TestOperations.testRunner@18920cc]" started-at="2022-01-17T21:30:40Z" name="homePageGetTitle" finished-at="2022-01-17T21:30:49Z" duration-ms="9123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageGetTitle -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestOperations.testRunner@18920cc]" started-at="2022-01-17T21:30:49Z" name="teardown" finished-at="2022-01-17T21:30:49Z" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="homePageElement()[pri:2, instance:TestOperations.testRunner@18920cc]" started-at="2022-01-17T21:30:49Z" name="homePageElement" finished-at="2022-01-17T21:31:02Z" duration-ms="13179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageElement -->
+        <test-method is-config="true" signature="reports()[pri:0, instance:TestOperations.testRunner@18920cc]" started-at="2022-01-17T21:30:49Z" name="reports" finished-at="2022-01-17T21:30:49Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestOperations.testRunner@18920cc]" started-at="2022-01-17T21:31:02Z" name="teardown" finished-at="2022-01-17T21:31:03Z" duration-ms="451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="reports()[pri:0, instance:TestOperations.testRunner@18920cc]" started-at="2022-01-17T21:31:03Z" name="reports" finished-at="2022-01-17T21:31:03Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports -->
+        <test-method signature="validAgentDetails()[pri:3, instance:TestOperations.testRunner@18920cc]" started-at="2022-01-17T21:31:03Z" name="validAgentDetails" finished-at="2022-01-17T21:31:28Z" duration-ms="25373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validAgentDetails -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestOperations.testRunner@18920cc]" started-at="2022-01-17T21:31:28Z" name="teardown" finished-at="2022-01-17T21:31:29Z" duration-ms="971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="reports()[pri:0, instance:TestOperations.testRunner@18920cc]" started-at="2022-01-17T21:31:29Z" name="reports" finished-at="2022-01-17T21:31:29Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports -->
+        <test-method signature="validcustomerLoginDetails()[pri:4, instance:TestOperations.testRunner@18920cc]" started-at="2022-01-17T21:31:29Z" name="validcustomerLoginDetails" finished-at="2022-01-17T21:31:45Z" duration-ms="16362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validcustomerLoginDetails -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestOperations.testRunner@18920cc]" started-at="2022-01-17T21:31:45Z" name="teardown" finished-at="2022-01-17T21:31:46Z" duration-ms="384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="validforgotPasswordDetails()[pri:5, instance:TestOperations.testRunner@18920cc]" started-at="2022-01-17T21:31:46Z" name="validforgotPasswordDetails" finished-at="2022-01-17T21:32:00Z" duration-ms="13704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validforgotPasswordDetails -->
+        <test-method is-config="true" signature="reports()[pri:0, instance:TestOperations.testRunner@18920cc]" started-at="2022-01-17T21:31:46Z" name="reports" finished-at="2022-01-17T21:31:46Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestOperations.testRunner@18920cc]" started-at="2022-01-17T21:32:00Z" name="teardown" finished-at="2022-01-17T21:32:00Z" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="reports()[pri:0, instance:TestOperations.testRunner@18920cc]" started-at="2022-01-17T21:32:00Z" name="reports" finished-at="2022-01-17T21:32:00Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports -->
+        <test-method signature="validonewayBooking()[pri:6, instance:TestOperations.testRunner@18920cc]" started-at="2022-01-17T21:32:00Z" name="validonewayBooking" finished-at="2022-01-17T21:32:16Z" duration-ms="16061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validonewayBooking -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestOperations.testRunner@18920cc]" started-at="2022-01-17T21:32:16Z" name="teardown" finished-at="2022-01-17T21:32:16Z" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="reports()[pri:0, instance:TestOperations.testRunner@18920cc]" started-at="2022-01-17T21:32:16Z" name="reports" finished-at="2022-01-17T21:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports -->
+        <test-method signature="validroundtripBooking()[pri:7, instance:TestOperations.testRunner@18920cc]" started-at="2022-01-17T21:32:16Z" name="validroundtripBooking" finished-at="2022-01-17T21:32:35Z" duration-ms="18883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validroundtripBooking -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestOperations.testRunner@18920cc]" started-at="2022-01-17T21:32:35Z" name="teardown" finished-at="2022-01-17T21:32:35Z" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="reports()[pri:0, instance:TestOperations.testRunner@18920cc]" started-at="2022-01-17T21:32:35Z" name="reports" finished-at="2022-01-17T21:32:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports -->
+        <test-method signature="validFromAirportTripBooking()[pri:9, instance:TestOperations.testRunner@18920cc]" started-at="2022-01-17T21:32:35Z" name="validFromAirportTripBooking" finished-at="2022-01-17T21:33:02Z" duration-ms="27222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validFromAirportTripBooking -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestOperations.testRunner@18920cc]" started-at="2022-01-17T21:33:02Z" name="teardown" finished-at="2022-01-17T21:33:03Z" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="validToAirportTripBooking()[pri:10, instance:TestOperations.testRunner@18920cc]" started-at="2022-01-17T21:33:03Z" name="validToAirportTripBooking" finished-at="2022-01-17T21:33:26Z" duration-ms="23563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validToAirportTripBooking -->
+        <test-method is-config="true" signature="reports()[pri:0, instance:TestOperations.testRunner@18920cc]" started-at="2022-01-17T21:33:03Z" name="reports" finished-at="2022-01-17T21:33:03Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestOperations.testRunner@18920cc]" started-at="2022-01-17T21:33:26Z" name="teardown" finished-at="2022-01-17T21:33:26Z" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="validContactDetails()[pri:11, instance:TestOperations.testRunner@18920cc]" started-at="2022-01-17T21:33:26Z" name="validContactDetails" finished-at="2022-01-17T21:33:41Z" duration-ms="14588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validContactDetails -->
+        <test-method is-config="true" signature="reports()[pri:0, instance:TestOperations.testRunner@18920cc]" started-at="2022-01-17T21:33:26Z" name="reports" finished-at="2022-01-17T21:33:26Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestOperations.testRunner@18920cc]" started-at="2022-01-17T21:33:41Z" name="teardown" finished-at="2022-01-17T21:33:41Z" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="reports()[pri:0, instance:TestOperations.testRunner@18920cc]" started-at="2022-01-17T21:33:41Z" name="reports" finished-at="2022-01-17T21:33:41Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports -->
+        <test-method signature="validbloggerSocialLinkDetails()[pri:12, instance:TestOperations.testRunner@18920cc]" started-at="2022-01-17T21:33:41Z" name="validbloggerSocialLinkDetails" finished-at="2022-01-17T21:33:58Z" duration-ms="16747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validbloggerSocialLinkDetails -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestOperations.testRunner@18920cc]" started-at="2022-01-17T21:33:58Z" name="teardown" finished-at="2022-01-17T21:33:58Z" duration-ms="340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="reports()[pri:0, instance:TestOperations.testRunner@18920cc]" started-at="2022-01-17T21:33:58Z" name="reports" finished-at="2022-01-17T21:33:58Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports -->
+        <test-method signature="validAboutDetails()[pri:13, instance:TestOperations.testRunner@18920cc]" started-at="2022-01-17T21:33:58Z" name="validAboutDetails" finished-at="2022-01-17T21:34:14Z" duration-ms="15503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validAboutDetails -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestOperations.testRunner@18920cc]" started-at="2022-01-17T21:34:14Z" name="teardown" finished-at="2022-01-17T21:34:14Z" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="reports()[pri:0, instance:TestOperations.testRunner@18920cc]" started-at="2022-01-17T21:34:14Z" name="reports" finished-at="2022-01-17T21:34:14Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports -->
+        <test-method signature="validcabTypeDetails()[pri:14, instance:TestOperations.testRunner@18920cc]" started-at="2022-01-17T21:34:14Z" name="validcabTypeDetails" finished-at="2022-01-17T21:34:29Z" duration-ms="14979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validcabTypeDetails -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestOperations.testRunner@18920cc]" started-at="2022-01-17T21:34:29Z" name="teardown" finished-at="2022-01-17T21:34:29Z" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="validcarRentalDetails()[pri:15, instance:TestOperations.testRunner@18920cc]" started-at="2022-01-17T21:34:29Z" name="validcarRentalDetails" finished-at="2022-01-17T21:34:45Z" duration-ms="16263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validcarRentalDetails -->
+        <test-method is-config="true" signature="reports()[pri:0, instance:TestOperations.testRunner@18920cc]" started-at="2022-01-17T21:34:29Z" name="reports" finished-at="2022-01-17T21:34:29Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestOperations.testRunner@18920cc]" started-at="2022-01-17T21:34:45Z" name="teardown" finished-at="2022-01-17T21:34:46Z" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="reportClose()[pri:0, instance:TestOperations.testRunner@18920cc]" started-at="2022-01-17T21:34:46Z" name="reportClose" finished-at="2022-01-17T21:34:46Z" duration-ms="419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportClose -->
+      </class> <!-- TestOperations.testRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- hybridSuite -->
+</testng-results>

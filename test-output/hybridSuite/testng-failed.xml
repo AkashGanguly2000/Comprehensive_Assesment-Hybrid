@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [hybridSuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Utilities.testListeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestOperations.testRunner">
+        <methods>
+          <include name="reportClose"/>
+          <include name="teardown"/>
+          <include name="validlocalTripBooking"/>
+          <include name="reports"/>
+        </methods>
+      </class> <!-- TestOperations.testRunner -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [hybridSuite] -->

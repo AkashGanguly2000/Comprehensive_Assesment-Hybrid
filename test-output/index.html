@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-hybridSuite" class="navigator-link">
+              <span class="suite-name border-passed">hybridSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-hybridSuite" class="navigator-link ">
+                    <span>C:\Users\91700\OneDrive\Desktop\Final Assessment\Comprehensive_Assesment Hybrid\HybridAutomation\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-hybridSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-hybridSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-hybridSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-hybridSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-hybridSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-hybridSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">14 methods,   14 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-hybridSuite" class="hide-methods passed suite-hybridSuite"> (hide)</a> <!-- hide-methods passed suite-hybridSuite -->
+                      <a href="#" panel-name="suite-hybridSuite" class="show-methods passed suite-hybridSuite"> (show)</a> <!-- show-methods passed suite-hybridSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-hybridSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-hybridSuite" title="TestOperations.testRunner" class="method navigator-link" hash-for-method="homePageElement">homePageElement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-hybridSuite" title="TestOperations.testRunner" class="method navigator-link" hash-for-method="homePageGetTitle">homePageGetTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-hybridSuite" title="TestOperations.testRunner" class="method navigator-link" hash-for-method="validAboutDetails">validAboutDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-hybridSuite" title="TestOperations.testRunner" class="method navigator-link" hash-for-method="validAgentDetails">validAgentDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-hybridSuite" title="TestOperations.testRunner" class="method navigator-link" hash-for-method="validContactDetails">validContactDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-hybridSuite" title="TestOperations.testRunner" class="method navigator-link" hash-for-method="validFromAirportTripBooking">validFromAirportTripBooking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-hybridSuite" title="TestOperations.testRunner" class="method navigator-link" hash-for-method="validToAirportTripBooking">validToAirportTripBooking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-hybridSuite" title="TestOperations.testRunner" class="method navigator-link" hash-for-method="validbloggerSocialLinkDetails">validbloggerSocialLinkDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-hybridSuite" title="TestOperations.testRunner" class="method navigator-link" hash-for-method="validcabTypeDetails">validcabTypeDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-hybridSuite" title="TestOperations.testRunner" class="method navigator-link" hash-for-method="validcarRentalDetails">validcarRentalDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-hybridSuite" title="TestOperations.testRunner" class="method navigator-link" hash-for-method="validcustomerLoginDetails">validcustomerLoginDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-hybridSuite" title="TestOperations.testRunner" class="method navigator-link" hash-for-method="validforgotPasswordDetails">validforgotPasswordDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-hybridSuite" title="TestOperations.testRunner" class="method navigator-link" hash-for-method="validonewayBooking">validonewayBooking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-hybridSuite" title="TestOperations.testRunner" class="method navigator-link" hash-for-method="validroundtripBooking">validroundtripBooking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-hybridSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-hybridSuite" class="panel hybridSuite">
+          <div class="suite-hybridSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestOperations.testRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="homePageElement">
+                  </a> <!-- homePageElement -->
+                  <span class="method-name">homePageElement</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homePageGetTitle">
+                  </a> <!-- homePageGetTitle -->
+                  <span class="method-name">homePageGetTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validAboutDetails">
+                  </a> <!-- validAboutDetails -->
+                  <span class="method-name">validAboutDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validAgentDetails">
+                  </a> <!-- validAgentDetails -->
+                  <span class="method-name">validAgentDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validContactDetails">
+                  </a> <!-- validContactDetails -->
+                  <span class="method-name">validContactDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validFromAirportTripBooking">
+                  </a> <!-- validFromAirportTripBooking -->
+                  <span class="method-name">validFromAirportTripBooking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validToAirportTripBooking">
+                  </a> <!-- validToAirportTripBooking -->
+                  <span class="method-name">validToAirportTripBooking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validbloggerSocialLinkDetails">
+                  </a> <!-- validbloggerSocialLinkDetails -->
+                  <span class="method-name">validbloggerSocialLinkDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validcabTypeDetails">
+                  </a> <!-- validcabTypeDetails -->
+                  <span class="method-name">validcabTypeDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validcarRentalDetails">
+                  </a> <!-- validcarRentalDetails -->
+                  <span class="method-name">validcarRentalDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validcustomerLoginDetails">
+                  </a> <!-- validcustomerLoginDetails -->
+                  <span class="method-name">validcustomerLoginDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validforgotPasswordDetails">
+                  </a> <!-- validforgotPasswordDetails -->
+                  <span class="method-name">validforgotPasswordDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validonewayBooking">
+                  </a> <!-- validonewayBooking -->
+                  <span class="method-name">validonewayBooking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validroundtripBooking">
+                  </a> <!-- validroundtripBooking -->
+                  <span class="method-name">validroundtripBooking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-hybridSuite-class-passed -->
+        </div> <!-- panel hybridSuite -->
+        <div panel-name="test-xml-hybridSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\91700\OneDrive\Desktop\Final Assessment\Comprehensive_Assesment Hybrid\HybridAutomation\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;hybridSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Utilities.testListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestOperations.testRunner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- hybridSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-hybridSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for hybridSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-hybridSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for hybridSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-hybridSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for hybridSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_hybridSuite');
+function tableData_hybridSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(14);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'validFromAirportTripBooking')
+data.setCell(0, 2, 'TestOperations.testRunner')
+data.setCell(0, 3, 27222);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validAgentDetails')
+data.setCell(1, 2, 'TestOperations.testRunner')
+data.setCell(1, 3, 25373);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validToAirportTripBooking')
+data.setCell(2, 2, 'TestOperations.testRunner')
+data.setCell(2, 3, 23563);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validroundtripBooking')
+data.setCell(3, 2, 'TestOperations.testRunner')
+data.setCell(3, 3, 18883);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validbloggerSocialLinkDetails')
+data.setCell(4, 2, 'TestOperations.testRunner')
+data.setCell(4, 3, 16747);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'validcustomerLoginDetails')
+data.setCell(5, 2, 'TestOperations.testRunner')
+data.setCell(5, 3, 16362);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'validcarRentalDetails')
+data.setCell(6, 2, 'TestOperations.testRunner')
+data.setCell(6, 3, 16263);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'validonewayBooking')
+data.setCell(7, 2, 'TestOperations.testRunner')
+data.setCell(7, 3, 16061);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'validAboutDetails')
+data.setCell(8, 2, 'TestOperations.testRunner')
+data.setCell(8, 3, 15503);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'validcabTypeDetails')
+data.setCell(9, 2, 'TestOperations.testRunner')
+data.setCell(9, 3, 14979);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'validContactDetails')
+data.setCell(10, 2, 'TestOperations.testRunner')
+data.setCell(10, 3, 14588);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'validforgotPasswordDetails')
+data.setCell(11, 2, 'TestOperations.testRunner')
+data.setCell(11, 3, 13704);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'homePageElement')
+data.setCell(12, 2, 'TestOperations.testRunner')
+data.setCell(12, 3, 13179);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'homePageGetTitle')
+data.setCell(13, 2, 'TestOperations.testRunner')
+data.setCell(13, 3, 9123);
+window.suiteTableData['hybridSuite']= { tableData: data, tableDiv: 'times-div-hybridSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-hybridSuite">
+              </div> <!-- times-div-hybridSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-hybridSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for hybridSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-hybridSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-hybridSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestOperations.testRunner</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">reports</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">homePageGetTitle</span>
+                <span class="method-start">4 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">9129 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">reports</span>
+                <span class="method-start">9349 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">homePageElement</span>
+                <span class="method-start">9349 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">22529 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">reports</span>
+                <span class="method-start">22981 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validAgentDetails</span>
+                <span class="method-start">22981 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">48355 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">reports</span>
+                <span class="method-start">49326 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validcustomerLoginDetails</span>
+                <span class="method-start">49327 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">65690 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">reports</span>
+                <span class="method-start">66075 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validforgotPasswordDetails</span>
+                <span class="method-start">66075 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">79779 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">reports</span>
+                <span class="method-start">80019 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validonewayBooking</span>
+                <span class="method-start">80019 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">96081 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">reports</span>
+                <span class="method-start">96299 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validroundtripBooking</span>
+                <span class="method-start">96300 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">115184 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">reports</span>
+                <span class="method-start">115483 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validFromAirportTripBooking</span>
+                <span class="method-start">115483 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">142705 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">reports</span>
+                <span class="method-start">142985 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validToAirportTripBooking</span>
+                <span class="method-start">142985 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">166549 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">reports</span>
+                <span class="method-start">166690 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validContactDetails</span>
+                <span class="method-start">166690 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">181279 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">reports</span>
+                <span class="method-start">181462 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validbloggerSocialLinkDetails</span>
+                <span class="method-start">181463 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">198211 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">reports</span>
+                <span class="method-start">198551 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validAboutDetails</span>
+                <span class="method-start">198551 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">214055 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">reports</span>
+                <span class="method-start">214189 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validcabTypeDetails</span>
+                <span class="method-start">214190 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">229170 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">reports</span>
+                <span class="method-start">229421 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validcarRentalDetails</span>
+                <span class="method-start">229421 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">245685 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">reportClose</span>
+                <span class="method-start">246269 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
